@@ -1,6 +1,8 @@
 # 🍊 조별 자바 프로젝트 CRUD
 
 
+# 사이트 보기 : https://qhalsseo.github.io/boardCRUD/
+
 
 ## 1. 프로젝트 개요
   JSP/Servlet, OracleDB(sql)을 이용. 
