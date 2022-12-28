@@ -1,0 +1,87 @@
+@charset "utf-8";
+#wrap {
+    font-family: 'NanumSquare', sans-serif;
+}
+.w1440 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* contents */
+.contents h3 {
+    font-size: 28px;
+    padding: 35px 0;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.boardList .table {
+    border: none;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.boardList .table thead tr th {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #f7f7f7;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -1px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+
+.boardList .table tbody tr td {
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 20px;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+.boardList .table tbody tr td .board_info {
+    display: flex;
+}
+.boardList .table tbody tr td .board_info p {
+    margin-right: 20px;
+}
+.boardList .table tbody tr td a {
+    color: #000;
+}
+
+.boardList .table tbody .board_content {
+    font-size: 24px;
+    line-height: 80px;
+}
+.boardList .table tbody .board_button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.board_button div>button {
+    all: unset;
+}
+
+/* 버튼목록 */
+.all_button_list {
+    display: flex;
+    justify-content: space-between;
+}
+.all_button_list button {
+    padding: 4px 20px 4px 20px;
+    background-color: #646464;
+    border: none;
+    color: white;
+    letter-spacing: -1px;
+    margin-bottom: 100px;
+}

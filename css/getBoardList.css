@@ -1,0 +1,147 @@
+@charset "utf-8";
+#wrap {
+    font-family: 'NanumSquare', sans-serif;
+}
+.w1440 {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.contents h3 {
+    font-size: 28px;
+    padding: 35px 0;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+.boardList .board_button {
+    text-align: right;
+    margin-bottom: 14px;
+}
+
+.boardList .board_button button:first-child {
+    padding: 4px 10px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    margin-right: 6px;
+    letter-spacing: -1px;
+}
+.boardList .board_button button:last-child {
+    padding: 4px 16px 4px 28px;
+    background-color: #646464;
+    border: none;
+    color: white;
+    letter-spacing: -1px;
+}
+
+.boardList .table {
+    border: none;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-bottom: 30px;
+}
+
+.boardList .table thead tr th {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #f7f7f7;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+.boardList .table tbody tr td {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+.boardList .table tbody tr td a {
+    color: #000;
+}
+.boardList .table tbody tr td:nth-child(2) {
+    text-align: left;
+}
+/* 게시판 이동 */
+.board_page {
+    text-align: center;
+}
+.board_page a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+}
+
+.board_page .number_page {
+      
+    margin: 0 3px;
+}
+
+
+.board_page .first_page {
+    background-image: url(../images/img_arr_page.jpg);
+    margin-right: 7px;
+}
+.board_page .prev_page {
+    background-image: url(../images/img_arr_page.jpg);
+    background-position: -30px 0;
+    margin-right: 20px;
+}
+.board_page .next_page {
+    background-image: url(../images/img_arr_page.jpg);
+    background-position: -60px 0;
+    margin-left: 20px;
+} 
+.board_page .last_page {
+    background-image: url(../images/img_arr_page.jpg);
+    background-position: -90px 0;
+    margin-left: 7px;
+}
+
+/* 게시판 검색 */
+.board_search {
+    margin: 30px 0;
+    text-align: center;
+}
+.board_search ul {
+    display: inline-block;
+    border: 2px solid #ededed;
+}
+.board_search ul li {
+    display: inline-block;
+}
+.search_select{
+    width: 95px;
+    padding: 0 12px;
+    line-height: 40px;
+}
+.search_select select {
+    text-align: center;
+    border: none;
+    border-right: 1px solid #ededed;
+}
+.search_input {
+    padding: 0px 12px;
+    width: 180px;
+}
+.search_input input {
+    border: none;
+}
+.search_submit {
+    margin-left: 12px;
+}
+.search_submit button {
+    border: none;
+    background-color: #ededed;
+    width: 96px;
+    line-height: 40px;
+}

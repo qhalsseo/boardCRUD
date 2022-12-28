@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* 영문폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+/* 한글폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+/* 영문포트 */
+.roboto {font-family: 'Roboto', sans-serif;}
+.mousememoirs {font-family: 'Mouse Memoirs', sans-serif;}
+.oswald {font-family: 'Oswald', sans-serif;}
+.lato {font-family: 'Lato', sans-serif;}
+.dancing {font-family: 'Dancing Script', cursive;}
+.anton {font-family: 'Anton', sans-serif;}
+.uchen {font-family: 'Uchen', serif;}
+.source {font-family: 'Source Sans Pro', sans-serif;}
+.kanit {font-family: 'Kanit', sans-serif;}
+.lobster {font-family: 'Lobster', cursive;}
+.pacifico {font-family: 'Pacifico', cursive;}
+.cinzel {font-family: 'Cinzel', serif;}
+.permanent {font-family: 'Permanent Marker', cursive;}
+.cormorant {font-family: 'Cormorant', serif;}
+.alfa {font-family: 'Alfa Slab One', cursive;}
+.satisfy {font-family: 'Satisfy', cursive;}
+
+/* 한글포트 */
+.nanumgothic {font-family: 'Nanum Gothic', sans-serif;}
+.nato {font-family: 'Noto Sans KR', sans-serif;}
+.gothica1 {font-family: 'Gothic A1', sans-serif;}
+.nanummyeongjo {font-family: 'Nanum Myeongjo', serif;}
+.nanumpen {font-family: 'Nanum Pen', sans-serif;}
+.blackhans {font-family: 'Black Han Sans', sans-serif;}
+.jua {font-family: 'Jua', sans-serif;}
+.nanumbrush {font-family: 'Nanum Brush Script', cursive;}
+.melody {font-family: 'Hi Melody', cursive;}
+.sunflower {font-family: 'Sunflower', sans-serif;}
+.singleday {font-family: 'Single Day', cursive;}
+.hahmlet {font-family: 'Hahmlet', serif;}
+.eastsea {font-family: 'East Sea Dokdo', cursive;}
+.stylish {font-family: 'Stylish', sans-serif;}
+.songmyung {font-family: 'Song Myung', serif;}
